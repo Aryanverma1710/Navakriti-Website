@@ -1,6 +1,4 @@
-body{
-  /* background-color: rgb(31, 37, 41); */
-}
+
 #back-to-top-btn {
     position: fixed;
     bottom: 20px;
@@ -85,6 +83,10 @@ body.show-button #back-to-top-btn {
 
 #login-card{
   border-color: #8258e5;
+}
+
+#login-img{
+  background-color: #8258e5;
 }
 
 .accordion{
