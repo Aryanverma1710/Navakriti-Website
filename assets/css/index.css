@@ -10,6 +10,10 @@ body{
     background-color: #8258e5;
     border-color: #8258e5;
 }
+
+#back-to-top-btn:hover{
+  background-color: #5d3ca8 !important;
+}
 /* CSS for fade-in effect */
 .fade-in {
   animation: fadeIn 0.5s;
@@ -68,15 +72,16 @@ body.show-button #back-to-top-btn {
   
 }
 
+#contact-area{
+  background-color: #8258e5;
+
+}
+
 #main-button{
   background-color: #8258e5;
   border-color: #8258e5;
 }
 
-#login-button{
-  background-color: #8258e5;
-  border-color: #8258e5;
-}
 
 #login-card{
   border-color: #8258e5;
@@ -94,4 +99,30 @@ body.show-button #back-to-top-btn {
 
 .accordion-button:after {
   background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.btn-outline-primary{
+  border-color: #8258e5;
+  color:#8258e5;
+}
+.btn-outline-primary:hover{
+  --bs-btn-hover-bg: #8258e5;
+
+}
+
+#main-button:hover, #main-button:active, #main-button:focus{
+  background-color: #5d3ca8 !important;
+}
+
+#contact-area:hover, #contact-area:active, #contact-area:focus{
+  
+  background-color: #5d3ca8 !important;
+}
+
+.list-inline-item a{
+  color: white;
+}
+
+.list-inline-item a:hover{
+  color: #5d3ca8;
 }
